@@ -8,6 +8,8 @@ Created on Sat Jun 23 13:45:55 2018
 # Importing the libraries
 import pandas as pd
 
+print('hemant')
+
 # Importing the dataset
 df1 = pd.read_csv("train.csv")
 
@@ -52,7 +54,7 @@ print score_gini_dec
 
 
 
-#random forest entropy
+#random forest entropygit
 from sklearn.ensemble import RandomForestClassifier
 classifier=RandomForestClassifier(n_estimators=10,criterion = "entropy",random_state=0)
 classifier.fit(features_train,labels_train)
