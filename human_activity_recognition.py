@@ -9,6 +9,7 @@ Created on Sat Jun 23 13:45:55 2018
 import pandas as pd
 
 print('hemant')
+print('komal')
 
 # Importing the dataset
 df1 = pd.read_csv("train.csv")
